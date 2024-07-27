@@ -65,6 +65,19 @@ body {
 	gap: 5px;
 }
 
+@media (max-width: 768px) {
+	.task {
+		min-width: 200px;
+		flex-direction: column;
+		font-size: 1.2em;
+	}
+
+	.btns button {
+		padding: 6px 12px;
+		font-size: 0.8em;
+	}
+}
+
 .delete-btn {
 	padding: 8px 16px;
 	background-color: hsl(0, 74%, 58%);
