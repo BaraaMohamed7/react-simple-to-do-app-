@@ -66,6 +66,10 @@ body {
 }
 
 @media (max-width: 768px) {
+	.task-input-container {
+		flex-direction: column;
+	}
+
 	.task {
 		min-width: 200px;
 		flex-direction: column;
